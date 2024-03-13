@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Adonais Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Adonais Regular'), url('Adonais.woff') format('woff');
+}
+@font-face {
+    font-family: "Evil Empire";
+    font-style: normal;
+    font-weight: normal;
+    src: local('Evil Empire'), url('Evil Empire.woff') format('woff');
+}
+* {
+    box-sizing: border-box;
+  }
+  body{
+    color: wheat;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float:left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    align-content: center;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .alexTitle{
+    font-family: "Evil Empire";
+    color: #fcb634;
+    font-size: 2vw;
+    text-align: center;
+  }
+  .mKTitle{
+    font-family: "Evil Empire";
+    color: #fcb634;
+    font-size: 2vw;
+    text-align: center;
+  }
+  #gameImg:hover{
+    opacity: 0.6;
+  }
+  .copyright{
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 1.1vw;
+    color: wheat;
+}
+.homeHead{
+    color: #B3172F;
+    font-size: 3vw;
+    font-family: "Evil Empire";
+}
+.redThornDescription{
+    margin-left: 10%;
+    margin-right: 10%;
+}
