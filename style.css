@@ -142,3 +142,6 @@
   font-size: 3vw;
   text-align: center;
 }
+#myImg:hover{
+  opacity: 0.6;
+}
