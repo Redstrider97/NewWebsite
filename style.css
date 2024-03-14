@@ -13,6 +13,7 @@
 * {
     box-sizing: border-box;
   }
+  
   body{
     color: wheat;
     text-align: center;
@@ -23,6 +24,9 @@
   .teamImg{
     padding-top: 2%;
     padding-bottom: 2%;
+  }
+  #teamImg{
+    border-radius: 5%;
   }
   
   /* Create two equal columns that floats next to each other */
@@ -77,4 +81,64 @@
 .redThornDescription{
     margin-left: 10%;
     margin-right: 10%;
+}
+.flex-links a{
+  display: flex;
+  margin-bottom: auto;
+}
+
+.flex-links .devblogweb a {
+  font-family:"Evil Empire";
+  color: #fcb634;
+  font-size: 2vw;
+  text-decoration: none;
+  border: 2px #B3172F solid;
+  border-radius: 25%;
+  background-color: #B3172F;
+  margin-left: 20%;
+  float: left;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.flex-links .devblogweb a:hover{
+  opacity: 0.6;
+}
+.flex-links .presskitweb a {
+  font-family:"Evil Empire";
+  color: #fcb634;
+  font-size: 2vw;
+  text-decoration: none;
+  border: 2px #B3172F solid;
+  border-radius: 25%;
+  background-color: #B3172F;
+  text-decoration: none;
+  margin-right: 20%;
+  float: right;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.flex-links .presskitweb a:hover {
+  opacity: 0.6;
+}
+#gifs {
+  margin:1%;
+  border-style: solid;
+  border-color: #fcb634;
+  border-radius: 3%;
+  border-spacing: 1%;
+}
+#gifs:hover{
+  opacity: 0.6;
+}
+.alexDescText{
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.alexBallTitle{
+  font-family: "Evil Empire";
+  color: #fcb634;
+  font-size: 3vw;
+  text-align: center;
 }
