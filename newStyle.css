@@ -10,33 +10,29 @@
     font-weight: normal;
     src: local('Evil Empire'), url('Evil Empire.woff') format('woff');
 }
-* {
-    box-sizing: border-box;
-  }
-  
-  body{
+body{
     color: wheat;
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
     font-size: 1vw;
   }
-  .teamImg{
+.teamImg{
     padding-top: 2%;
     padding-bottom: 2%;
   }
-  #teamImg{
+#teamImg{
     border-radius: 5%;
   }
   
   /* Create two equal columns that floats next to each other */
-  .column {
+.column {
     float:left;
     width: 50%;
   }
   
   /* Clear floats after the columns */
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
@@ -45,29 +41,29 @@
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
-    .column {
+.column {
       width: 100%;
     }
-  }
-  .alexTitle{
+}
+.alexTitle{
     font-family: "Evil Empire";
     color: #fcb634;
     font-size: 2vw;
     text-align: center;
   }
-  .mKTitle{
+.mKTitle{
     font-family: "Evil Empire";
     color: #fcb634;
     font-size: 2vw;
     text-align: center;
   }
-  #gameImgOne:hover{
+#gameImgOne:hover{
     opacity: 0.6;
   }
-  #gameImgTwo:hover{
+#gameImgTwo:hover{
     opacity: 0.6;
   }
-  .copyright{
+.copyright{
     white-space: nowrap;
     font-weight: bold;
     font-size: 1.1vw;
