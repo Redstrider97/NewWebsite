@@ -21,6 +21,11 @@ body{
     padding-top: 2%;
     padding-bottom: 2%;
   }
+
+  .teamImg.sticky {
+    position: sticky;
+    top: 0;
+  }
 #teamImg{
     border-radius: 5%;
   }
@@ -57,11 +62,23 @@ body{
     font-size: 2vw;
     text-align: center;
   }
+  #gameimgOne{
+    border-style: solid;
+    border-color: #fcb634;
+    border-spacing: 1%;
+    border-radius: 2%;
+  }
+  #gameimgTwo{
+    border-style: solid;
+    border-color: #fcb634;
+    border-spacing: 1%;
+    border-radius: 2%;
+  }
 #gameImgOne:hover{
-    opacity: 0.6;
+    opacity: 0.8;
   }
 #gameImgTwo:hover{
-    opacity: 0.6;
+    opacity: 0.8;
   }
 .copyright{
     white-space: nowrap;
@@ -140,4 +157,41 @@ body{
 }
 #myImg:hover{
   opacity: 0.6;
+}
+.youtubeLink{
+  display: flex;
+  justify-content: center;
+}
+iframe {
+  aspect-ratio: 16 / 9;
+  width: 60%;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 20%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 2vh;
+  transition: all 0.3s ease;
+  color: #B3172F;
+  font-size: 2.5vh;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #156a63;
+}
+
+.homeButton {
+  background: #fcb634;
+  color: white;
 }
